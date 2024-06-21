@@ -49,7 +49,9 @@ O MQTT é um protocolo de comunicação leve e eficiente, projetado para disposi
 ### ➯ FUNCIONAMENTO
 
   No MQTT, os componentes trabalham juntos de maneira integrada para criar um sistema eficiente de comunicação entre dispositivos. Clientes, que podem ser publicadores ou assinantes, enviam e recebem mensagens sobre tópicos específicos. Publicadores enviam mensagens para o broker, especificando o tópico relevante, e o broker, por sua vez, recebe essas mensagens e as distribui para os assinantes inscritos no tópico correspondente. 
+  
   Tópicos organizam as mensagens em canais hierárquicos, permitindo que os assinantes escolham quais dados receber. Sessões mantêm o estado entre clientes e o broker, assegurando a continuidade da comunicação mesmo após desconexões. A Qualidade de Serviço (QoS) garante diferentes níveis de entrega das mensagens, variando de "no máximo uma vez" até "exatamente uma vez". A retenção de mensagens permite que o broker armazene a última mensagem de um tópico e a envie a novos assinantes. 
+  
   Além disso, o Last Will and Testament (LWT) fornece uma mensagem predefinida que o broker publica caso um cliente se desconecte inesperadamente, informando os demais clientes da desconexão. Esses componentes colaboram para garantir que as mensagens sejam entregues de maneira confiável e eficiente, adaptando-se a diferentes condições de rede e requisitos de aplicação.
 
 ### ➯ CÓDIGO
