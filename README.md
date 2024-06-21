@@ -39,6 +39,9 @@ O MQTT é um protocolo de comunicação leve e eficiente, projetado para disposi
 
 ##### ▸ Qualidade de Serviço (QoS) 
 > Três níveis (QoS 0, 1 e 2) que garantem diferentes níveis de entrega de mensagens, desde nenhuma garantia até entrega exatamente uma vez.
+>   - QoS 0: Mensagem entregue no máximo uma vez, sem garantia de entrega.
+>   - QoS 1: Mensagem entregue pelo menos uma vez, com confirmação de recebimento.
+>   - QoS 2: Mensagem entregue exatamente uma vez, com um processo de handshake para garantir a entrega única.
 
 ##### ▸ Retenção de Mensagens 
 > Mensagens marcadas como retidas são armazenadas pelo broker e enviadas a novos assinantes de um tópico.
