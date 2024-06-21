@@ -23,42 +23,42 @@
 O MQTT é um protocolo de comunicação leve e eficiente, projetado para dispositivos IoT. Seus principais componentes incluem:
 
 ##### ▸ Clientes
-```sh
+```JSON
 Dispositivos ou aplicativos que enviam (publicadores) ou recebem (assinantes) mensagens
 ```
 
 ##### ▸ Broker 
-```sh
+```JSON
 O servidor central que gerencia a comunicação entre os clientes, filtrando e encaminhando mensagens conforme os tópicos.
 ```
 
 ##### ▸ Tópicos 
-```sh
+```JSON
 Canais hierárquicos onde as mensagens são publicadas e assinadas, como casa/sala/temperatura.
 ```
 
 ##### ▸ Mensagens 
-```sh
+```JSON
 Dados enviados entre clientes através do broker, associados a tópicos específicos.
 ```
 
 ##### ▸ Sessões 
-```sh
+```JSON
 Estados mantidos entre clientes e o broker, que podem ser persistentes (mantêm mensagens não entregues) ou não-persistentes.
 ```
 
 ##### ▸ Qualidade de Serviço (QoS) 
-```sh
+```JSON
 Três níveis (QoS 0, 1 e 2) que garantem diferentes níveis de entrega de mensagens, desde nenhuma garantia até entrega exatamente uma vez.
 ```
 
 ##### ▸ Retenção de Mensagens 
-```sh
+```JSON
 Mensagens marcadas como retidas são armazenadas pelo broker e enviadas a novos assinantes de um tópico.
 ```
 
 ##### ▸ Last Will and Testament (LWT) 
-```sh
+```JSON
 Mensagem de última vontade definida por um cliente, publicada pelo broker em caso de desconexão inesperada.
 ```
 
