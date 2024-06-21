@@ -23,44 +23,28 @@
 O MQTT é um protocolo de comunicação leve e eficiente, projetado para dispositivos IoT. Seus principais componentes incluem:
 
 ##### ▸ Clientes
-```json
-Dispositivos ou aplicativos que enviam (publicadores) ou recebem (assinantes) mensagens
-```
+> Dispositivos ou aplicativos que enviam (publicadores) ou recebem (assinantes) mensagens
 
 ##### ▸ Broker 
-```JSON
-O servidor central que gerencia a comunicação entre os clientes, filtrando e encaminhando mensagens conforme os tópicos.
-```
+> O servidor central que gerencia a comunicação entre os clientes, filtrando e encaminhando mensagens conforme os tópicos.
 
 ##### ▸ Tópicos 
-```JSON
-Canais hierárquicos onde as mensagens são publicadas e assinadas, como casa/sala/temperatura.
-```
+> Canais hierárquicos onde as mensagens são publicadas e assinadas, como casa/sala/temperatura.
 
 ##### ▸ Mensagens 
-```JSON
-Dados enviados entre clientes através do broker, associados a tópicos específicos.
-```
+> Dados enviados entre clientes através do broker, associados a tópicos específicos.
 
 ##### ▸ Sessões 
-```JSON
-Estados mantidos entre clientes e o broker, que podem ser persistentes (mantêm mensagens não entregues) ou não-persistentes.
-```
+> Estados mantidos entre clientes e o broker, que podem ser persistentes (mantêm mensagens não entregues) ou não-persistentes.
 
 ##### ▸ Qualidade de Serviço (QoS) 
-```JSON
-Três níveis (QoS 0, 1 e 2) que garantem diferentes níveis de entrega de mensagens, desde nenhuma garantia até entrega exatamente uma vez.
-```
+> Três níveis (QoS 0, 1 e 2) que garantem diferentes níveis de entrega de mensagens, desde nenhuma garantia até entrega exatamente uma vez.
 
 ##### ▸ Retenção de Mensagens 
-```JSON
-Mensagens marcadas como retidas são armazenadas pelo broker e enviadas a novos assinantes de um tópico.
-```
+> Mensagens marcadas como retidas são armazenadas pelo broker e enviadas a novos assinantes de um tópico.
 
 ##### ▸ Last Will and Testament (LWT) 
-```JSON
-Mensagem de última vontade definida por um cliente, publicada pelo broker em caso de desconexão inesperada.
-```
+> Mensagem de última vontade definida por um cliente, publicada pelo broker em caso de desconexão inesperada.
 
 ### ➯ FUNCIONAMENTO
 
