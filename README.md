@@ -189,4 +189,5 @@ A função loop verifica se a conexão MQTT está ativa e, se não estiver, cham
 ![WhatsApp Image 2024-06-18 at 21 22 04](https://github.com/natifss/SISTEMAS-EMBARCADOS-RTOS/assets/119085630/341ee5e8-d67c-4b94-a891-79d32acdc53b)
 
 #### ▸ LED LIGANDO E DESLIGANDO NO VSCODE
-![WhatsApp Image 2024-06-18 at 21 22 04](https://github.com/natifss/SISTEMAS-EMBARCADOS-RTOS/assets/119085630/d14e67f3-069f-4bd0-b736-14d636fcbece)
+![WhatsApp Image 2024-06-18 at 21 23 36](https://github.com/natifss/SISTEMAS-EMBARCADOS-RTOS/assets/119085630/44776789-fddb-4778-977f-0c4305dff5a4)
+
