@@ -23,7 +23,7 @@
 O MQTT é um protocolo de comunicação leve e eficiente, projetado para dispositivos IoT. Seus principais componentes incluem:
 
 ##### ▸ Clientes
-```JSON
+```json
 Dispositivos ou aplicativos que enviam (publicadores) ou recebem (assinantes) mensagens
 ```
 
