@@ -29,7 +29,7 @@ O MQTT é um protocolo de comunicação leve e eficiente, projetado para disposi
 > O servidor central que gerencia a comunicação entre os clientes, filtrando e encaminhando mensagens conforme os tópicos.
 
 ##### ▸ Tópicos 
-> Canais hierárquicos onde as mensagens são publicadas e assinadas, como casa/sala/temperatura.
+> Canais hierárquicos onde as mensagens são publicadas e assinadas.
 
 ##### ▸ Mensagens 
 > Dados enviados entre clientes através do broker, associados a tópicos específicos.
